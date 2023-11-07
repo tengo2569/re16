@@ -1,0 +1,83 @@
+@media (width>768px){
+    .container{
+        width:768px;
+        height: 1024px;
+        background-image: url(./assets/tablet/boy1.jpg);
+        background-repeat: no-repeat;
+        background-position:right 0% top 0%;
+        background-color: #121725;
+        
+    }
+    .textbox{
+        width: 635px;
+        height: 510px;
+        background: #121725;
+        margin-left: -17%;
+        margin-top: 9%;
+        margin-left: -7%;
+        padding-left: 0%;
+    }
+    h1{
+        width: 635px;
+        height: 112px;
+        font-size: 48px;
+        text-align: left;
+        margin-top: 15%;
+    }
+    h1 span{
+        font-size: 48px;
+        position: relative;
+        top: 25%;
+    }
+    h2{
+        width: 445px;
+        font-size: 18px;
+        text-align: left;
+        margin-left: -30%;
+        margin-top: 12%;
+    }
+    .icons1{
+        display: none;
+    }
+    .emailbox1{
+        display: none;
+    }
+    .emailbox2{
+        display: flex;
+    }
+    .emailbox2 input
+    {
+        width: 427px;
+height: 56px;
+border-radius: 28px;
+background: #2C344B;
+border: none;
+margin-top: 15%;
+margin-left: -5%;
+    }
+    .emailbox2 button {
+        width: 162px;
+height: 46px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 48%;
+left: -32%;
+
+    }
+    .icons2{
+        display: flex;
+        margin-left: -15%;
+    }
+    .endline{
+        display: flex;
+        position: absolute;
+        top: 87%;
+        left: 4%;
+    }
+    .desimg{
+        display: none;
+    }
+
+}
