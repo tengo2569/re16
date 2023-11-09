@@ -93,6 +93,9 @@ background: #2C344B;
 border: none;
     outline: none;
 }
+.emailbox1 input{
+  color:white;
+}
 #false{
   left: 14%;
   top: 80%;
