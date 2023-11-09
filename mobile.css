@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
 
 
 *{
@@ -13,16 +13,20 @@ body{
   justify-content: center;
   align-items: center;
   font-family: 'Chivo';
+
+
 }
 .container{
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 375px;
-  height: 667px;
-  border: 1px solid black;
-  background-image: url(./assets/mobile/boy2.svg);
-  filter: brightness(70%);
+  height:675px;
+   overflow:hidden;
+  background-image: url(./assets/mobile/boy1.jpg);
+   background-repeat: no-repeat;
+  background-size: cover;
+ position:relative;
 }
 .textbox{
   /* border: 1px solid black; */
@@ -50,7 +54,9 @@ h1 span{
   text-transform: uppercase;
   margin-top: 25%;
 }
-
+h1  p{
+  display: none;
+}
 h2{
   width: 327px;
   color: #C2CBE5;
@@ -118,5 +124,8 @@ line-height: 28px;
   display: none;
 }
 .tabimg{
+  display: none;
+}
+span p{
   display: none;
 }

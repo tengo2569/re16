@@ -1,49 +1,55 @@
 @media (width>1440px){
-    .container{
-        width: 1440px;
-        background-image:none;
-        background-position: right 0px top 130px;
-        background-position: static;
-    }
-    .textbox{
-        width: 723px;
-        height: 510px;
-      margin-top: 281px;
-      margin-left: -388px;
-      position: absolute;
-    }
-    .desimg{
-        display: flex;
-        position: absolute;
-        top: 150px;
-      right: 0px;
-    }
-    h1{
-        margin-top: 55px;
-        width: 665px;
-        font-size: 52px;
-    }
-    h1 span{
-        font-size: 55px;
-    }
-    .icons2{
-        margin-top: 25px;
-    }
-    h2{
-        width: 445px;
-    }
-    .emailbox1 input{
-        left: -11%;
-    }
-    .emailbox1 input button{
-        left: -32%;
-    }
-    .endline{
-        left: 144%;
-        top: 85%;
-    }
-    .headline{
-        margin-top: 10%;
-        margin-left: -64%;
-    }
+    body{
+    background-color:#121725;}
+.container{
+     background-color:#121725;
+    width: 1440px;
+    background-image:none;
+    background-position: right 0px top 130px;
+    background-position: static;
+}
+.textbox{
+    width: 723px;
+    height: 510px;
+  margin-top: 281px;
+  margin-left: -388px;
+  position: absolute;
+}
+.desimg{
+    display: flex;
+    position: absolute;
+    top: 150px;
+  right: 0px;
+}
+h1{
+    margin-top: 55px;
+    width: 665px;
+    font-size: 52px;
+}
+h1 span{
+    font-size: 55px;
+}
+.icons2{
+    margin-top: 25px;
+}
+h2{
+    width: 445px;
+}
+.emailbox1 input{
+    left: -11%;
+}
+.emailbox1 input button{
+    left: -32%;
+}
+.endline{
+    left: 144%;
+    top: 85%;
+}
+.headline{
+    margin-top: 10%;
+    margin-left: -64%;
+}
+.tabimg{
+    display: none;
+}
 }
