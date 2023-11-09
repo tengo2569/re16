@@ -61,6 +61,7 @@ background: #2C344B;
 border: none;
 margin-top: 15%;
 margin-left: -5%;
+        outline: none;
     }
     .emailbox2 button {
         width: 162px;
