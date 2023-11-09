@@ -91,6 +91,7 @@ height: 46px;
 border-radius: 28px;
 background: #2C344B;
 border: none;
+    outline: none;
 }
 #false{
   left: 14%;
@@ -118,3 +119,4 @@ line-height: 28px;
 .emailbox2,.endline, .icons2, .desimg, .tabimg, span p{
   display: none;
 }
+
